@@ -71,7 +71,6 @@ const App = () => {
         <TodoComputed computedItemsLeft={computedItemsLeft} clearCompleted={clearCompleted}/>
         <TodoFilter changeFilter={changeFilter} filter={filter} />
       </main>
-      <footer className="text-center dark:text-gray-400">Drag and drop to reorder list</footer>
     </div>
   );
 };
